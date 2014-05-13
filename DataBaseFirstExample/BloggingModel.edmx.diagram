@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="960901a0c6464c0fa6baf90eb7200d10" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBaseFirst.BoggingModel.Blog" Width="1.5" PointX="10.25" PointY="0.75" />
+        <EntityTypeShape EntityType="DataBaseFirst.BoggingModel.Post" Width="1.5" PointX="13.25" PointY="2.25" />
+        <AssociationConnector Association="DataBaseFirst.BoggingModel.FK_dbo_Posts_dbo_Blogs_BlogId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
